@@ -129,7 +129,7 @@
     <h5 class="fw-bold text-center">Crea tu cuenta</h5>
     <p class="text-center text-muted mb-3">Introduce email para iniciar sesión en la app</p>
 
-    <form class="w-100 px-4">
+    <form id="formEmail" class="w-100 px-4">
       <input type="email" class="form-control mb-3" placeholder="email@domain.com" required>
       <button id="btnEmail" type="submit" class="btn btn-black w-100 mb-3">Continuar</button>
     </form>
@@ -153,4 +153,11 @@
   </div>
 </body>
 </html>
->>>>>>> 289ad4c985af28184f91e6db5a4d57e017db96cc
+<script>
+  document.getElementById("formEmail").addEventListener("submit", function(event) {
+    event.preventDefault(); // Evita que se recargue la página
+    // Aquí podrías validar o guardar el email si quieres
+    window.location.href = "https://laur1910.github.io/SaboresDeFamilia/recetario.html"; // Redirige a la siguiente vista
+  });
+</script>
+
