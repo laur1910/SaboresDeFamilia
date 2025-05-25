@@ -12,6 +12,8 @@ HTML5
 CSS3
 Bootstrap
 JavaScript
+SpringBoot
+Java
 
 # Autor
 Laura García
