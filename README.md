@@ -5,7 +5,7 @@ App Web sobre recetas familiares
 App Web donde podrás almacenar recetas familiares, ademas de contar su historia y poder compartirla para que nunca se pierdan.
 
 # Enlace en vivo
-https://laur1910.github.io/SaboresDeFamilia/
+https://laur1910.github.io/SaboresDeFamilia/sabores/target/classes/static/
 
 # Tecnologías utilizadas
 HTML5
